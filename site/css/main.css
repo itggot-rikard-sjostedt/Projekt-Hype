@@ -24,11 +24,23 @@ body,html
     /*position: fixed;*/
 }
 
+.opening_logo_div
+{
+    width: 100%;
+    display: block;
+}
+
+.opening_logo
+{
+    margin: 0 auto 0 auto;
+    padding-top: 5vh;
+    display: block;
+    width: 150vh;
+}
+
 .button_open
 {
     width: 100%;
-    padding-top: 100px
-
 }
 
 .opening_button
