@@ -10,6 +10,7 @@ body,html
     height: 40px;
     width: 100%;
     position: fixed;
+    background-color: red;
 }
 
 /*OPENING PAGE*/
@@ -26,6 +27,7 @@ body,html
 .button_open
 {
     width: 100%;
+    padding-top: 100px
 
 }
 
