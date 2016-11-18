@@ -25,7 +25,7 @@ body,html
     margin: 0 40px 0 40px;
     font-size: 30px;
     text-decoration:none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav_link:hover
@@ -39,10 +39,11 @@ body,html
 {
     height: 100vh;
     width: 100%;
-    background-image: url("../img/solar.png");
+    background-image: url("../img/back_night.jpg");
     background-size: cover;
     /*padding-top: 100px;*/
     /*position: fixed;*/
+    box-shadow: 3px 0px 100px black;
 }
 
 .opening_logo_div
@@ -88,4 +89,39 @@ body,html
 {
     background-color: rgba(0, 0,0, 0.5);
     border-color: rgba(0, 0,0, 0.1);
+}
+
+#intro
+{
+    width: 100%;
+    background-color: white;
+    height: 630px;
+    margin: 5% 0 5% 0;
+}
+
+.sr_video
+{
+    width: 1120px;
+    height: 630px;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+.intro_two
+{
+    background-image: url("../img/solar.png");
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+    padding: 5% 0 5% 0;
+    box-shadow: 3px 0px 100px black;
+
+}
+
+.sr_other
+{
+    width: 1120px;
+    height: 630px;
+    margin: 0 auto 0 auto;
+    display: block;
 }
