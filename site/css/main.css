@@ -2,6 +2,9 @@ body,html
 {
     margin: 0;
     padding: 0;
+    background-image: url("../img/back_night.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /*HEADER*/
@@ -31,7 +34,7 @@ body,html
 .nav_link:hover
 {
     color: black;
-    /*box-shadow: 2px 2px 1px black;*/
+
 }
 
 /*OPENING PAGE*/
@@ -39,11 +42,7 @@ body,html
 {
     height: 100vh;
     width: 100%;
-    background-image: url("../img/back_night.jpg");
-    background-size: cover;
-    /*padding-top: 100px;*/
-    /*position: fixed;*/
-    box-shadow: 3px 0px 50px black;
+
 }
 
 .opening_logo_div
@@ -94,6 +93,12 @@ body,html
 {
     width: 100%;
     margin: 0 0 5% 0;
+}
+.first_intro
+{
+    /*background-color: rgba(255,255,255, 0.3);*/
+    width: 100%;
+    margin: 0 10% 0 10%;
 }
 
 .title_intro
