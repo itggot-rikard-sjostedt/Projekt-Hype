@@ -13,7 +13,8 @@
     <title>Solar FREAKIN' roadways</title>
     <script src="js/jquery.js"></script>
     <script>
-        function jumpTo(element) {
+        function jumpTo(element) 
+        {
             $('html, body').animate({
                 scrollTop: $("#" + element).offset().top
             }, 500);
@@ -23,32 +24,23 @@
 
 <body>
     <div class="container">
-        <!--<header class="header">
+        <header class="header">
             <nav class="navbar">
                 <a href="index.html" class="nav_link"> Hem</a>
                 <a href="index.html" class="nav_link"> Hem</a>
             </nav>
-        </header>-->
+        </header>
 
         <div class="opening_page">
             <div class="opening_logo_div">
                 <img class="opening_logo" src="img/logo.png">
             </div>
             <div class="button_open">
-                <a onclick="jumpTo('intro');" class="opening_button">READ MORE</a> 
+                <a onclick="jumpTo('intro_two');" class="opening_button">READ MORE</a> 
             </div>
         </div>
 
-        <div id="intro" class="intro center text_center">
-                <div class="first_intro text_white">
-                    <h1 class="title_intro"> HOW FREAKIN' GOOD THEY ARE </h1>
-                    <!--<div class="sr_video">-->
-                        <iframe class="sr_other" src="https://www.youtube.com/embed/qlTA3rnpgzU" frameborder="0" allowfullscreen></iframe>
-                    <!--</div>-->
-                </div>
-        </div>
-
-        <div class="intro_two text_center">
+        <div class="intro_two text_center" id="intro_two">
             <h2 class="title_intro text_white"> SOLAR PANELS ARE THE BEST THING TO HAVE ON THE GROUND!!!</h2>
             <div class="text_introtwo">
                 <p class="text_intro_two text_white"> 
@@ -69,10 +61,24 @@
             </div>
         </div>
 
+
+
+        <div id="intro" class="intro center text_center">
+                <div class="first_intro text_white">
+                    <h1 class="title_intro"> HOW FREAKIN' GOOD THEY ARE </h1>
+                    <!--<div class="sr_video">-->
+                        <iframe class="sr_other" src="https://www.youtube.com/embed/qlTA3rnpgzU" frameborder="0" allowfullscreen></iframe>
+                    <!--</div>-->
+                </div>
+        </div>
+
+
         <div class="buy_now">
                 <h2 class="title_intro center text_white"> BUY NOW </h2>
             <div class="buy_pic center">
-                <img class="buy_cart" src="img/cart.png">
+                <a href="buy.html"> 
+                    <img class="buy_cart" src="img/cart.png">
+                </a>
             </div>
         </div>
     </div>
