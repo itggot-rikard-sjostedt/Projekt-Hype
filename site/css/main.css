@@ -333,3 +333,46 @@ body,html
         margin: 15px auto auto auto;
     }
 }
+
+
+/*ABOUT*/
+.about_page
+{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+}
+
+.about_nav
+{
+    flex-grow: 1;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_content
+{
+    flex-grow: 5;
+    background-color: red;
+}
+
+.about_entity
+{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_nav_text
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#company:hover 
+{
+    display: none;
+}
